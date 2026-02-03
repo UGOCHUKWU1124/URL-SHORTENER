@@ -4,7 +4,7 @@ A RESTful API for URL shortening built with Express.js, TypeScript, Prisma, and 
 
 ## 🔗 Project Links
 
-- **GitHub Repository**: https://github.com/UGOCHUKWU1124/URL-SHORTENER.git
+- **Project URL**: https://roadmap.sh/projects/url-shortening-service
 
 
 ## Features
