@@ -2,6 +2,11 @@
 
 A RESTful API for URL shortening built with Express.js, TypeScript, Prisma, and MongoDB.
 
+## 🔗 Project Links
+
+- **GitHub Repository**: https://github.com/UGOCHUKWU1124/URL-SHORTENER.git
+
+
 ## Features
 
 - ✅ Shorten long URLs to compact short codes
