@@ -62,6 +62,16 @@ class UrlService {
             throw new ValidationError("Original URL is required");
         }
 
+        //Check if the URL already exists in the database
+        const existingUrl = await prisma.url.findFirst({
+            where: { originalUrl },
+        });
+
+        //If it exists, return the existing short code instead of creating a new one
+        if (existingUrl) {
+            return existingUrl;
+        }
+
         //Generate a unique short code
         const shortCode = await this.generateUniqueShortCode();
 
@@ -105,7 +115,7 @@ class UrlService {
         }
 
         //Delete the URL
-        await prisma.url.delete({   
+        await prisma.url.delete({
             where: { id: url.id },
         });
     }
