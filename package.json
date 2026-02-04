@@ -6,6 +6,7 @@
     "expressjs": "^1.0.1",
     "joi": "^18.0.2",
     "mongodb": "^7.0.0",
+    "nanoid": "^5.1.6",
     "prisma": "^6.19.2"
   },
   "devDependencies": {
