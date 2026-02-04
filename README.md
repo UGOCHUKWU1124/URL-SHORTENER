@@ -10,6 +10,7 @@ A RESTful API for URL shortening built with Express.js, TypeScript, Prisma, and 
 ## Features
 
 - ✅ Shorten long URLs to compact short codes
+- ✅ Generating the random url short code with nanoid
 - ✅ Redirect from short codes to original URLs
 - ✅ Track access statistics
 - ✅ Update existing short URLs
@@ -26,6 +27,7 @@ A RESTful API for URL shortening built with Express.js, TypeScript, Prisma, and 
 - **Database**: MongoDB
 - **ORM**: Prisma
 - **Validation**: Joi
+- **Code generator**: Nanoid
 
 ## Prerequisites
 
